@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  background-image: url("images/98850d93-0ca8-4fbb-861c-3a9e24332e6d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.middenstuk {
+  flex: 1 0 auto;
+  padding-top: 30px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+.wrapper {
+  border: solid 4px #fec700;
+  background-color: white;
+  width: 700px;
+  height: 90%;
+  overflow: auto;
+  margin: 30px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+
+.tekst {
+  margin: 0 20px;
+  text-align: justify;
+}
+
+.plaatjes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #7b219f;
+}
+
+header {
+  height: 40px;
+  line-height: 40px;
+  flex-shrink: 0;
+  background-color: #fec700;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header a {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a:hover {
+  background-color: #1a0a53;
+  color: white;
+}
+
+footer {
+  margin: 0;
+  flex-shrink: 0;
+  background-color: #fec700;
+  text-align: center;
+}
+
+.about_welkom {
+  margin: 100px auto 0 auto;
+}
