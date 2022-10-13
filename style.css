@@ -49,6 +49,7 @@ h2 {
 }
 
 .tekst {
+  max-height: 500px;
   margin: 0 20px;
   text-align: justify;
 }
