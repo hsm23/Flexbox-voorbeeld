@@ -112,3 +112,17 @@ footer {
   border: dotted 1px #fec700;
   border-radius: 8px;
 }
+
+@media (max-width: 450px) {
+  .container {
+    flex-direction: column;
+  }
+  .plaatjes {
+    flex-direction: row;
+    height: 100px;
+  }
+
+  #plaatje3, #plaatje4 {
+    /*display: none;*/
+  }
+}
