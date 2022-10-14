@@ -114,15 +114,25 @@ footer {
 }
 
 @media (max-width: 450px) {
+  .wrapper {
+    width: 90vw;
+  }
   .container {
     flex-direction: column;
   }
   .plaatjes {
     flex-direction: row;
-    height: 100px;
+    max-height: 100px;
+    margin: 0 20px;
   }
 
   #plaatje3, #plaatje4 {
     /*display: none;*/
+  }
+}
+
+@media (max-width: 400px) {
+  .plaatjes img {
+    max-width: 70px;
   }
 }
